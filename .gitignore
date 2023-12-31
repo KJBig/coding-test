@@ -27,4 +27,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-src/backjoon/semi.java
+src/backjoon/Main.java
