@@ -1,4 +1,4 @@
-package backjoon;
+package backjoon.twenty_three.dec;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

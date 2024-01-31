@@ -1,4 +1,4 @@
-package backjoon;
+package backjoon.twenty_four.jan;
 
 public class bj_4673 {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package backjoon;
+package backjoon.twenty_four.jan;
 
 import java.io.*;
 import java.util.*;

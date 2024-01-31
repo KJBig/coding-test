@@ -1,17 +1,14 @@
-package backjoon;
+package backjoon.twenty_four.jan;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class bj_11004 {
+public class bj_11399 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] input = br.readLine().split(" ");
-        int N = Integer.parseInt(input[0]);
-        int K = Integer.parseInt(input[1]);
-
+        int N = Integer.parseInt(br.readLine());
         String[] split = br.readLine().split(" ");
         int[] ary = new int[N];
 
@@ -20,6 +17,14 @@ public class bj_11004 {
         }
 
         Arrays.sort(ary);
-        System.out.println(ary[K-1]);
+        int result = 0;
+        for (int i=1; i<N; i++) {
+            ary[i] = ary[i-1] + ary[i];
+        }
+
+        for (int i : ary) {
+            result+=i;
+        }
+        System.out.println(result);
     }
 }
