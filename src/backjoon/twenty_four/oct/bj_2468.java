@@ -3,7 +3,7 @@ package backjoon.twenty_four.oct;
 import java.io.*;
 import java.util.*;
 
-public class bj_10610 {
+public class bj_2468 {
 
     static int[] TX = {1, 0, -1, 0};
     static int[] TY = {0, -1, 0, 1};
