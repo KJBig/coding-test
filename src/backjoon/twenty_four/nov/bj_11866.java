@@ -1,4 +1,4 @@
-package backjoon.twenty_four.oct;
+package backjoon.twenty_four.nov;
 
 import java.io.BufferedReader;
 import java.io.IOException;
