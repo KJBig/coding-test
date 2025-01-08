@@ -1,4 +1,4 @@
-package backjoon.twenty_five;
+package backjoon.twenty_five.jan;
 
 import java.io.BufferedReader;
 import java.io.IOException;
