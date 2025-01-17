@@ -16,10 +16,10 @@ public class BJ1284 {
             }
             int answer = 1;
             String[] split = input.split("");
-            for (String str : split) {
-                if (str.equals("0")) {
+            for (String s : split) {
+                if (s.equals("0")) {
                     answer+=4;
-                } else if (str.equals("1")) {
+                } else if (s.equals("1")) {
                     answer+=2;
                 } else {
                     answer+=3;
