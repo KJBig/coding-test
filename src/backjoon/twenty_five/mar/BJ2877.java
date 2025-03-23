@@ -16,10 +16,8 @@ public class BJ2877 {
         }
 
         sb.delete(sb.length(), sb.length());
-        
         String convertNum = sb.reverse().toString();
 
-        
         StringBuilder answer = new StringBuilder();
         
         for(int i=0; i<convertNum.length(); i++) {
@@ -27,7 +25,7 @@ public class BJ2877 {
                 answer.append("4");
             } else {
                 answer.append("7");
-            }
+            
         }
 
         System.out.println(answer);
