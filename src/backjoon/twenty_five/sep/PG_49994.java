@@ -23,7 +23,8 @@ class PG_49994 {
                 String key = edgeKey(x, y, nx, ny);
                 visited.add(key);
 
-                x = nx; y = ny;
+                x = nx;
+                y = ny;
             }
             return visited.size();
         }
