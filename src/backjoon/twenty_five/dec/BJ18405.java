@@ -67,8 +67,12 @@ public class BJ18405 {
     }
 
     static class Virus {
-        int type, y, x, time;
-        Virus(int type, int y, int x, int time) {
+        int type;
+        int y;
+        int x;
+        int time;
+
+        public Virus(int type, int y, int x, int time) {
             this.type = type;
             this.y = y;
             this.x = x;
