@@ -49,22 +49,6 @@ public class BJ16724 {
 
         System.out.println(SAFE_ZONE_COUNT);
 
-//        for (int[] ints : VISITED) {
-//            for (int anInt : ints) {
-//                System.out.print(anInt +" ");
-//            }
-//            System.out.println();
-//        }
-//
-//        System.out.println("==========");
-//
-//        for (boolean[] ints : SAFE_ZONE) {
-//            for (boolean anInt : ints) {
-//                System.out.print(anInt +" ");
-//            }
-//            System.out.println();
-//        }
-
     }
 
     private static void bfs(int y, int x, int nowIndex) {
