@@ -46,17 +46,6 @@ public class BJ16964 {
 
         dfs(1);
 
-        for (Integer i : ANSWER) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
-        System.out.println("======");
-        for (Integer i : POS) {
-            System.out.print(i + " ");
-        }
-
-        System.out.println();
-
         for(int i=0; i<N; i++) {
             if(ANSWER.get(i) != ORDER[i+1]) {
                 System.out.println(0);
